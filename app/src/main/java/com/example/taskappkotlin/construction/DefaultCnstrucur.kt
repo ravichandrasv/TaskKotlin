@@ -10,7 +10,7 @@ fun main(arr: Array<String>) {
     ChildConstructor("Good","22")
 
 }
-
+//Primary Constructor
 class PrimaryConstruction(a: Int, b: String) {
 
     init {
@@ -20,7 +20,7 @@ class PrimaryConstruction(a: Int, b: String) {
         print(b)
     }
 }
-
+//Default
 class DefaultValueConstructor(a: Int = 9, b: String = "defaultValue Constructor") {
     val a = a
     val b = b
@@ -35,6 +35,7 @@ class Student(val name: String, var age: Int) {
 
 }
 
+//Secondary constructor
 class SecondaryConstructor {
     constructor(name: String, age: Int):this(name,age,"bangalore") {
         print("\t ${name}\t${age}")
