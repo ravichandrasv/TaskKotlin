@@ -1,7 +1,7 @@
 package com.example.taskappkotlin
 
 
-//Its closed class or restricted classes
+//Its closed class or restricted classes shared across those extend classes
 sealed class MyExample {
     class OP1 : MyExample() // MyExmaple class can be of two types only
     class OP2 : MyExample()

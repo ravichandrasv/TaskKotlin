@@ -10,6 +10,7 @@ fun main(args: Array<String>) {
 
 fun func(str: String, myfunc: (String) -> Unit) {
     print("For Outer Print ")
+    //pass value to demo that is for inner
     myfunc(str)
 }
 fun demo(str: String) {

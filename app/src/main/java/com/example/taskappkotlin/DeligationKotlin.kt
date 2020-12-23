@@ -1,9 +1,7 @@
 package com.example.taskappkotlin
-
+//It will access all the implemeted method though derived class object
 interface Base {
-    fun print(){
-        print("I am Calling from delegation")
-    }
+    fun print()
 }
 
 class BaseImpl(val x: Int) : Base {

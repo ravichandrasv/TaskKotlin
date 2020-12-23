@@ -1,13 +1,9 @@
 package com.example.taskappkotlin
 
 fun main(args: Array<String>) {
-    val product = { a: Int, b: Int -> a * b }
-    val result = product(9, 3)
-    println(result)
+    val square = { number: Int -> number * number }
 
-    //Example 2
-    val greeting = { println("Hey")}
-
-    // invoking function
-    greeting()
+    //without declaring we can call function
+    val nine = square(3)
+    print(nine)
 }

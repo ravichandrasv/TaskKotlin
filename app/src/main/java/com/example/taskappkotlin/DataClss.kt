@@ -4,5 +4,4 @@ fun main(args: Array<String>) {
     println("First Name = ${person1.firstName}")
     println("Age = ${person1.age}")
 }
-class Person(val firstName: String, var age: Int) {
-}
+class Person(val firstName: String, var age: Int)

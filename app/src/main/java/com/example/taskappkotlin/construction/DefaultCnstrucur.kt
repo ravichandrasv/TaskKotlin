@@ -20,7 +20,7 @@ class PrimaryConstruction(a: Int, b: String) {
         print(b)
     }
 }
-//Default
+//Default values 
 class DefaultValueConstructor(a: Int = 9, b: String = "defaultValue Constructor") {
     val a = a
     val b = b
